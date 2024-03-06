@@ -9,6 +9,8 @@ namespace Editor
 {
     public abstract class AutoSpriteSlicerFolder
     {
+        private const int SpriteSizeX = 54;
+        private const int SpriteSizeY = 54;
         [MenuItem("Tools/Slice Images in Folder")]
         public static void SliceImagesInFolder()
         {
@@ -54,7 +56,7 @@ namespace Editor
 
                 importer.SetTextureSettings(textureSettings);
 
-                var spriteSize = new Vector2(54, 54);
+                var spriteSize = new Vector2(SpriteSizeX, SpriteSizeY);
                 var rects = InternalSpriteUtility.GenerateGridSpriteRectangles(texture, Vector2.zero, spriteSize, Vector2.zero);
                 var rectsList = new List<Rect>(rects);
                 rectsList = SortRects(rectsList, texture.width);
