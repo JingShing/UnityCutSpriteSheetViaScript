@@ -12,11 +12,11 @@
 # 介紹
 此儲存庫有如下兩個腳本：
 * SpriteCutter.cs
-  * 可以使用 "auto" 和 "size" 模式
+  * 可以使用 "auto" 和 "size" 模式："auto" 等同於使用 sprite editor 的 auto 模式；"size" 則是指定尺寸來切割，可以在腳本中來修改尺寸
   * 此腳本會添加 "Slice Images in Folder" 和 "Slice Images in Folder" 選項到 "Tools" 選單中
   * 可以使用快捷鍵來使用此腳本
 * SpriteCutterFolder.cs
-  * 此腳本會自動切割指定資料夾中的所有 png 檔案
+  * 此腳本會自動切割指定資料夾中的所有 png 檔案(使用尺寸來切割，可以在腳本中修改尺寸)
   * 啟動腳本時會跳出檔案總管，以利選擇指定資料夾
 
 # 參考
