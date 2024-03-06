@@ -12,7 +12,7 @@ it will add menu item in tools menu.
 # Introduction
 There are two scripts in this repo:
 * SpriteCutter.cs
-  * There are two mode "auto" and "size" can be use.
+  * There are two mode "auto" and "size" can be use: "auto" mode is same as auto mode in sprite editor. "size" mode you can edit size you want in the script.
   * This script add "Slice Images in Folder" and "Slice Images in Folder" in tools bar.
   * Can press short cut to use script
 * SpriteCutterFolder.cs
