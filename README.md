@@ -16,7 +16,7 @@ There are two scripts in this repo:
   * This script add "Slice Images in Folder" and "Slice Images in Folder" in tools bar.
   * Can press short cut to use script
 * SpriteCutterFolder.cs
-  * This script will cut all the png image in the selected folder.
+  * This script will cut all the png image in the selected folder. Using size(can be edit in script).
   * It will show file explorer to you for selecting folder path
 
 # Reference
